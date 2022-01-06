@@ -42,10 +42,10 @@ public class constructoroverloading
 		System.out.println("Constructor with one parameter");
 		t2.display();
 		time t3=new time(10,30);
-		System.out.println("Constructor with one parameter");
+		System.out.println("Constructor with two parameter");
 		t3.display();
 		time t4=new time(10,30,15);
-		System.out.println("Constructor with one parameter");
+		System.out.println("Constructor with three parameter");
 		t4.display();
 	}
 }
