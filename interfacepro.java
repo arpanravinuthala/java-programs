@@ -31,7 +31,7 @@ class Exam implements Student,Department
         {
             c=c+1;
         }
-        if(m>5)
+        if(m>80)
         {
             c=c+1;
         }
