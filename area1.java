@@ -33,7 +33,7 @@ class Triangle extends figure
 	void area()
 	{
 		area1=0.5*length*breadth;
-		System.out.println("Arae of triangle is:"+area1);
+		System.out.println("Area of triangle is:"+area1);
 	}
 }
 class area1
