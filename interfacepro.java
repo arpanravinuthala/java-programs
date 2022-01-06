@@ -10,13 +10,13 @@ interface Department
 class Exam implements Student,Department
 {
     Scanner s=new Scanner(System.in);
-    int sno,cls,c,atd;
+    int sno,m,c,atd;
     String sname;
     public void getvalue()
     {
-        System.out.println("enter the roll no,class,name respectively");
+        System.out.println("enter the roll no,marks,name respectively");
         sno=s.nextInt();
-        cls=s.nextInt();
+        m=s.nextInt();
         s.next();
         sname=s.nextLine();
     }
@@ -31,7 +31,7 @@ class Exam implements Student,Department
         {
             c=c+1;
         }
-        if(cls>5)
+        if(m>5)
         {
             c=c+1;
         }
